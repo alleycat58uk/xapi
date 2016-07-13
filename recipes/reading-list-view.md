@@ -2,7 +2,6 @@
 Revision: 0.1
 
 DRAFT
-This is a draft recipe
 
 ##Purpose
 This recipe defines the structure and terms to record the experience of viewing a reading list
