@@ -1,5 +1,5 @@
 #Authorisation Recipe
-Revision: IN DRAFT
+Revision: 0.1
 
 ## Purpose
 This activity records authorisation for  being given to a person
