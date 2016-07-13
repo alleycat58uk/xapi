@@ -10,9 +10,9 @@ This recipe defines the structure and terms to record the experience of viewing 
 Common Statement Identifier:  Actor.A
 
 #### Entity Example:
-[Accounts](/common_statements.md#actor.account) is used as the identifer.  Account/Name to use is up to the sender, as long as it is resolvable, unique and persistant.
+The actor entity describes the individual that is viewing a vle a reading list.
 
-ToDo: Where does this information come from?
+_ToDo: Where does this information come from?_
 
 <table>
 	<tr><th>Property</th><th>Jisc Profile Information</th></tr>
