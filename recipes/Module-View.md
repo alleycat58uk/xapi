@@ -8,7 +8,7 @@ This recipe defines the structure and terms to record the experience of viewing 
 Common entity identifier:  Actor.A
 
 #### Entity Example:
-[Accounts](/common_statements.md#actor.account) is used as the identifer.  Account/Name to use is up to the sender, as long as it is resolvable, unique and persistant. Candidates include: vle id, the login name, and an other field with a student id in.
+The actor entity describes the individual that is viewing a vle resource.
 
 <table>
 	<tr><th>Property</th><th>Jisc Profile Information</th></tr>

@@ -108,7 +108,7 @@ The object defines the activity that has been completed. [Examples of valid obje
 	</tr>
 	<tr>
 		<td>object.definition</td>
-		<td>JSON object. verb.definition.type describes the activity. dueDate describes the</td>
+		<td>JSON object. Object.definition.type identifies the activity.</td>
 	</tr>
 	</tr>
 		<tr>

@@ -8,6 +8,7 @@ This activity records a graded assignment
 Common entity identifier:  Actor.A
 
 #### Entity Example:
+The actor entity describes the individual whose work has been graded.
 
 <table>
 	<tr><th>Property in Example</th><th>Description</th></tr>
