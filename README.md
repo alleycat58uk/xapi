@@ -43,11 +43,11 @@ These are the currently platform independent documented recipes:
 
 ### Authentication Systems
 
- * Logged in
+ * [Logged in](recipes/authorise.md)
 
 ### Attendance 
 
- * Visited Library
+ * [Visited Library](recipes/authorise.md)
 
 
 ## Predictive Model Output
