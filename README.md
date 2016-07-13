@@ -38,16 +38,17 @@ These are the currently platform independent documented recipes:
 ## Library examples (in draft)
 ### Reading Lists
 
- * Viewed Reading List (similar to module-view?)
- * Viewed Reading List item
+ * Viewed Reading List (recipes/reading-list-viewed.md)
+ * Viewed Reading List item (recipes/reading-list-item-viewed.md)
 
 ### Authentication Systems
 
- * [authorisation] 
-    * [A person makes an authorise a request.] (recipes/authorise.md)
-    * [A service may authorises a person to access an application.] (recipes/authorise.md)
+ * Authorisation
+    * [A person makes an authorise a request.] (recipes/authorise-person.md)
+    * [A service may authorises a person to access an application.] (recipes/authorise-service.md)
    
- * authentication  (logged in?)
+ * Authentication 
+    * logged on
 
 ### Attendance 
 
