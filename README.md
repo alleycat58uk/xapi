@@ -38,8 +38,8 @@ These are the currently platform independent documented recipes:
 ## Library examples (in draft)
 ### Reading Lists
 
- * Viewed Reading List (recipes/reading-list-viewed.md)
- * Viewed Reading List item (recipes/reading-list-item-viewed.md)
+ * [Viewed Reading List] (recipes/reading-list-viewed.md)
+ * [Viewed Reading List item] (recipes/reading-list-item-viewed.md)
 
 ### Authentication Systems
 
