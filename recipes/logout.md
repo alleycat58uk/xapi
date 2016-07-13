@@ -5,7 +5,7 @@ Revision: 1.1
 This activity records a user logging out of a VLE.
 ## Definition
 ### Actor
-Common Statement Identifier:  Actor.A
+Common entity identifier:  Actor.A
 
 This common statement is used across all example recipes.
 
@@ -44,7 +44,7 @@ The actor entity describes the individual logging out of the system.
 
 
 ### Verb
-Common Statement Identifier: Verb.A
+Common entity identifier: Verb.A
 
 This common statement is used across all example recipes
 
@@ -73,7 +73,7 @@ The Verb,[logged out](/vocabulary.md#verbs) describes the action of logging out 
     },
 ``` 
 ### Context
-Common Statement Identifier: Context.A
+Common entity identifier: Context.A
 
 #### Entity Example:
 [Context](/common_statements.md#context) identifies the platform that is being logged out of, Moodle in this example. Plugin specific extensions are optional and not part of the core recipe.
@@ -102,7 +102,7 @@ Common Statement Identifier: Context.A
 ```
 
 ### Object
-Common Statement Identifier: Object.A
+Common entity identifier: Object.A
 
 #### Entity Example:
 

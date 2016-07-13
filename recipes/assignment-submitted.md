@@ -6,7 +6,7 @@ This activity records a user submitting an assignment
 ## Definition
 
 ### Actor
-Common Statement Identifier:  Actor.A
+Common entity identifier:  Actor.A
 
 
 #### Entity Example:
@@ -32,7 +32,6 @@ The actor entity describes the individual who has submitted the assignment.
 
 ``` Javascript
 {
-    "version": "1.0.0",
     "actor": {
         "objectType": "Agent",
         "name": "John Smith",
@@ -44,7 +43,7 @@ The actor entity describes the individual who has submitted the assignment.
 ```
 
 ### Verb
-Common Statement Identifier: Verb.A
+Common entity identifier: Verb.A
 
 #### Entity Example:
 
@@ -72,7 +71,7 @@ The Verb, [completed](/vocabulary.md#verbs) describes the action of completing a
 ``` 
 
 ### Result.A
-Common Statement Identifier: Result.A
+Common entity identifier: Result.A
 
 #### Entity Example:
 The optional result entity can include completion. See [the xAPI specification for a full description of the result entity](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#result)
@@ -92,7 +91,7 @@ The optional result entity can include completion. See [the xAPI specification f
 ```
 
 ### Object
-Common Statement Identifier: Object.B
+Common entity identifier: Object.B
 
 #### Entity Example:
 The object defines the activity that has been completed. [Examples of valid object.definition vocabulary  Activity object Types](/common_statements.md#object) can be found on the vocab page.
@@ -145,7 +144,7 @@ Example:
 
 
 ### Context
-Common Statement Identifier: Context.B
+Common entity identifier: Context.B
 
 #### Entity Example:
 Plugin specific extensions are optional and not part of the core recipe.

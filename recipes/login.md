@@ -6,9 +6,9 @@ This activity records a user logging in to a VLE.
 ## Definition
 
 ### Actor
-Common Statement Identifier:  Actor.A
+Common entity identifier:  Actor.A
 
-This common statement is used across all example recipes.
+The entity is used across all recipes in the Jisc profile.
 
 #### Entity Example:
 The actor entity describes the individual that is logging in to the system.
@@ -43,9 +43,9 @@ The actor entity describes the individual that is logging in to the system.
 ```
 
 ### Verb
-Common Statement Identifier: Verb.A
+Common entity identifier: Verb.A
 
-This common statement is used across all example recipes
+The entity is used across all recipes in the Jisc profile.
 
 #### Entity Example:
 The Verb, [logged in](/vocabulary.md#verbs) describes the action of logging into a platform.
@@ -74,10 +74,10 @@ The Verb, [logged in](/vocabulary.md#verbs) describes the action of logging into
     },
 ``` 
 ### Context
-Common Statement Identifier: Context.A
+Common entity identifier: Context.A
 
 #### Entity Example:
-[Context](/common_statements.md#context) identifies the platform that is being logged into, Moodle in this example. Plugin specific extensions are optional and not part of the core recipe.
+Contextual information. Plugin specific extensions are optional and not part of the core recipe.
 
 <table>
 	<tr><th>Property in Example</th><th>Description</th></tr>
@@ -106,7 +106,7 @@ Common Statement Identifier: Context.A
 
 ### Object
 
-Common Statement Identifier: Object.A
+Common entity identifier: Object.A
 
 #### Entity Example:
 

@@ -5,7 +5,7 @@ Revision: 1.1
 This activity records a graded assignment
 ## Definition
 ### Actor
-Common Statement Identifier:  Actor.A
+Common entity identifier:  Actor.A
 
 #### Entity Example:
 
@@ -38,7 +38,7 @@ Common Statement Identifier:  Actor.A
 ```
 
 ### Verb
-Common Statement Identifier: Verb.A
+Common entity identifier: Verb.A
 
 #### Entity Example:
 
@@ -66,7 +66,7 @@ The Verb, [scored](/vocabulary.md#verbs) describes the action of evaluating a le
 ``` 
 
 ### Result
-Common Statement Identifier: Result.A
+Common entity identifier: Result.A
 
 #### Entity Example:
 The result entity can include scaled, raw, min and max score, success, and response (the instructor's feedback). See [result](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#result). In the Jisc profile, the use of the result entity and any of its properties is optional. 
@@ -99,7 +99,7 @@ See the [vocabulary](../vocabulary.md) page for a definition of the http://xapi.
 ```
 
 ### Object
-Common Statement Identifier: Object.B
+Common entity identifier: Object.B
 
 #### Entity Example:
 The object defines the activity that has been evaluated. [Examples of valid object.definition vocabulary on Activity objectTypes](/common_statements.md#object) can be found on the vocab page.
@@ -153,7 +153,7 @@ The object defines the activity that has been evaluated. [Examples of valid obje
 
 
 ### Context
-Common Statement Identifier: Context.C
+Common entity identifier: Context.C
 
 #### Entity Example:
 Plugin specific extensions are optional and not part of the core recipe.
