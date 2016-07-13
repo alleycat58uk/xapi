@@ -7,13 +7,13 @@ This activity records a service authorising authorisation a person.
 DRAFT:
 A service may authorize a person to access an application. In which case the actor is the service, the object is the person, and the target is the application. 
 
-//Q) what is the xapi element equivilent to 'target'?
+Q) what is the xapi element equivilent to 'target'?
 
 ## Definition
 ### Actor
+ 
 
-
-//would be the identity provider?
+q) would be the identity provider?
 ``` Javascript
 {
     
@@ -21,7 +21,6 @@ A service may authorize a person to access an application. In which case the act
 ```
 
 ### Verb
-[According to the activity streams verb...](http://activitystrea.ms/specs/json/schema/activity-schema.html#verbs)...)
 
 ``` javascript
 "verb": {
@@ -35,7 +34,7 @@ A service may authorize a person to access an application. In which case the act
 
 ### Object
 
-In this case object is the person that has been given access. 
+In this case, object is the person that has been given access to a resource. 
 
 
 <table>
