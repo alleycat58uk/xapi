@@ -7,10 +7,10 @@ DRAFT
 This recipe defines the structure and terms to record the experience of viewing a reading list
 
 ### Actor
-Common Statement Identifier:  Actor.A
+
 
 #### Entity Example:
-The actor entity describes the individual that is viewing a vle a reading list.
+The actor entity describes the individual that is viewing  a reading list.
 
 _ToDo: Where does this information come from?_
 
@@ -44,7 +44,7 @@ _ToDo: Where does this information come from?_
 ```
 
 ### Verb
-Common Statement Identifier: Verb.A
+
 
 #### Entity Example:
 
@@ -74,24 +74,24 @@ The Verb,[viewed](/vocabulary.md#verbs) denotes the action of the user's browser
 
 
 #### Entity Example:
-
-[Context](/common_statements.md#context)
-[IP Address](https://registry.tincanapi.com/#uri/extension/310)
+Contexual Information
+_ToDo: Check what contexual information the reading list suppliers give us_
 
 ``` javascript
 "context": {
         "platform": "",
         "extensions": {
- 	    "http://xapi.jisc.ac.uk/sessionId": "32456891"  ,
             "http://id.tincanapi.com/extensions/ip-address": "10.3.3.48"
         }
 ```
 
 ### Object
-Common Statement Identifier: Object.D
+
 
 #### Entity Example:
-Needs to which reading list was viewed
+The reading list that was viewed
+_we need to check what is avalible__
+
 <table>
 	<tr><th>Property</th><th>Jisc Profile Information</th></tr>
 	<tr>
@@ -111,11 +111,11 @@ Needs to which reading list was viewed
 ``` javascript
 "object": {
 	"objectType": "Activity",
-	"id": "http://moodle.data.alpha.jisc.ac.uk/mod/quiz/view.php?id=13"   	 	//  unique id or url of the item being logged into
+	"id": " "   	 	//  unique id or url reading list
 	"definition": {
-		"type": "http://xapi.jisc.ac.uk/define/vle/page",			//  definition type as above
-		"name": { "en": "Sample page" },			   //  name of item as returned by VLE
-		"description": { "en": "sample page" } //  description of item as returned by VLE
+		"type": "  ",			//  definition type as above _need minting?
+		"name": { "en": "Sample page" },			   //  name of 
+		"description": { "en": "sample page" } //  description 
 	 }
 }
 ```
