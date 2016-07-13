@@ -2,16 +2,14 @@
 Revision: 0.1
 
 ## Purpose
-This activity records authorisation for  being given to a person
+This activity records a person authorizing a request
+
 ## Definition
+
+
 ### Actor
 
-( [According to the verb we are using](http://activitystrea.ms/specs/json/schema/activity-schema.html#verbs)...)
-The actor has authorized the object. There are two valid scenarios: 
-* A person may authorize a request. In this case the actor is the person and the object is the request.
-* A service may authorize a person to access an application. In which case the actor is the service, the object is the person, and the target is the application.
-
-The assumption here is the second scenario and that the authorising system will produce the statement; both because that's in the gift of the institution, and because the authorising system will know both the user ID and the service accessed.
+In this case the actor is the person authorizing the request.
 
 ``` Javascript
 {
@@ -21,7 +19,9 @@ The assumption here is the second scenario and that the authorising system will 
 
 ### Verb
 
-The Verb,[authorised](/vocabulary.md#verbs) describes the action of the actor  authorising the object.
+The Verb,[http://activitystrea.ms/schema/1.0/authorize](/vocabulary.md#verbs) 
+
+Indicates that the actor has authorized the object. If a target is specified, it means that the authorization is specifically in regards to the target. For instance, a service can authorize a person to access a given application; in which case the actor is the service, the object is the person, and the target is the application. In contrast, a person can authorize a request; in which case the actor is the person and the object is the request and there might be no explicit target.
 
 ``` javascript
 "verb": {
