@@ -1,18 +1,17 @@
 #Authorisation Recipe
-Revision: 0.1
+Revision: IN DRAFT
 
 ## Purpose
-This activity records authorisation being given to a person
+This activity records authorisation for  being given to a person
 ## Definition
 ### Actor
 
-Potental verbs: [http://activitystrea.ms/schema/1.0/authorize]
-
-In this case, the actor has authorized the object. There are two valid scenarios: 
+( [According to the verb we are using](http://activitystrea.ms/specs/json/schema/activity-schema.html#verbs)...)
+The actor has authorized the object. There are two valid scenarios: 
 * A person may authorize a request. In this case the actor is the person and the object is the request.
 * A service may authorize a person to access an application. In which case the actor is the service, the object is the person, and the target is the application.
 
-The assumption here is the second scenario and that the authorising system will produce the statement. Is this
+The assumption here is the second scenario and that the authorising system will produce the statement; both because that's in the gift of the institution, and because the authorising system will know both the user ID and the service accessed.
 
 ``` Javascript
 {
