@@ -44,8 +44,8 @@ These are the currently platform independent documented recipes:
 ### Authentication Systems
 
  * Authorisation
-    * [A person makes an authorise a request.] (recipes/authorise-person.md)
-    * [A service may authorises a person to access an application.] (recipes/authorise-service.md)
+    * [A person authorises a request] (recipes/authorise-person.md)
+    * [A service authorises a person to access an application.] (recipes/authorise-service.md)
    
  * Authentication 
     * logged on
