@@ -1,14 +1,19 @@
-#Module/Block/Object View
-Revision: 1.1
+#Reading List View
+Revision: 0.1
+
+DRAFT
+This is a draft recipe and placeholder until trialled with data.
 
 ##Purpose
-This recipe defines the structure and terms to record the experience of viewing a vle resource such as a Moodle Module or Blackboard building block (eg a page as identified by its url)
+This recipe defines the structure and terms to record the experience of viewing a reading list
 
 ### Actor
 Common Statement Identifier:  Actor.A
 
 #### Entity Example:
-[Accounts](/common_statements.md#actor.account) is used as the identifer.  Account/Name to use is up to the sender, as long as it is resolvable, unique and persistant. Candidates include: vle id, the login name, and an other field with a student id in.
+[Accounts](/common_statements.md#actor.account) is used as the identifer.  Account/Name to use is up to the sender, as long as it is resolvable, unique and persistant.
+
+ToDo: Where does this information come from?
 
 <table>
 	<tr><th>Property</th><th>Jisc Profile Information</th></tr>
@@ -67,46 +72,19 @@ The Verb,[viewed](/vocabulary.md#verbs) denotes the action of the user's browser
     },
 ```
 ### Context
-Common Statement Identifier: Context.C
+
 
 #### Entity Example:
-Plugin specific extensions are optional and not part of the core recipe.
 
-
-[Context](/common_statements.md#context) identifies the platform that is being logged into, Moodle in this example.
-
-[IP Address](https://registry.tincanapi.com/#uri/extension/310) is used to identify the client's real address as a Context extension.
-
-SessionId is the VLE session Id
-
-CourseArea is the umbrella course/parent area identified by its home page URI 
-
-Plugin specific extensions are optional and not part of the core recipe.
-
-<table>
-	<tr><th>Property</th><th>Jisc Profile Information</th></tr>
-	<tr>
-		<td>context.platform</td>
-		<td>The platform used in the experience of this learning activity.</td>
-	</tr>
-	<tr>
-		<td>context.extensions</td>
-		<td>The sessionID extension is the VLE session ID. [IP Address](https://registry.tincanapi.com/#uri/extension/310) is used to identify the client's real address as a Context extension.</td>
-	</tr>
-</table>
+[Context](/common_statements.md#context)
+[IP Address](https://registry.tincanapi.com/#uri/extension/310)
 
 ``` javascript
 "context": {
-        "platform": "Moodle",
+        "platform": "",
         "extensions": {
-      		"http://xapi.jisc.ac.uk/courseArea": {
-      		 	 "http://xapi.jisc.ac.uk/vle_mod_id": "LA101",
-                 "id":"http://moodle.data.alpha.jisc.ac.uk/course/view.php?id=4"
-              },
- 			"http://xapi.jisc.ac.uk/sessionId": "32456891"  ,
-	
+ 	    "http://xapi.jisc.ac.uk/sessionId": "32456891"  ,
             "http://id.tincanapi.com/extensions/ip-address": "10.3.3.48"
-              
         }
 ```
 
@@ -114,8 +92,7 @@ Plugin specific extensions are optional and not part of the core recipe.
 Common Statement Identifier: Object.D
 
 #### Entity Example:
-Needs to identify what was viewed. A list of valid values can be found at [the definition of  object.definition.extensions on the vocabulary page](../vocabulary.md#Object.definition.extension)
-
+Needs to which reading list was viewed
 <table>
 	<tr><th>Property</th><th>Jisc Profile Information</th></tr>
 	<tr>
