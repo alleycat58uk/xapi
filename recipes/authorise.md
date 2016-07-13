@@ -2,7 +2,7 @@
 Revision: 0.1
 
 ## Purpose
-This activity records authorisation for  being given to a person
+This activity records authorisation being given to a person
 ## Definition
 ### Actor
 
