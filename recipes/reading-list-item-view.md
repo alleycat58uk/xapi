@@ -1,14 +1,18 @@
-#Module/Block/Object View
-Revision: 1.1
+#Reading List View
+Revision: 0.1
+
+DRAFT
 
 ##Purpose
-This recipe defines the structure and terms to record the experience of viewing a vle resource such as a Moodle Module or Blackboard building block (eg a page as identified by its url)
+This recipe defines the structure and terms to record the experience of viewing a reading list
 
 ### Actor
-Common Statement Identifier:  Actor.A
+
 
 #### Entity Example:
-[Accounts](/common_statements.md#actor.account) is used as the identifer.  Account/Name to use is up to the sender, as long as it is resolvable, unique and persistant. Candidates include: vle id, the login name, and an other field with a student id in.
+The actor entity describes the individual that is viewing  a reading list.
+
+_ToDo: Where does this information come from?_
 
 <table>
 	<tr><th>Property</th><th>Jisc Profile Information</th></tr>
@@ -22,7 +26,7 @@ Common Statement Identifier:  Actor.A
 	</tr>
 		<tr>
 		<td>actor.account</td>
-		<td>JSON Object with unique id and home page</td>
+		<td>JSON Object with unique id</td>
 	</tr>
 </table>
 
@@ -33,14 +37,14 @@ Common Statement Identifier:  Actor.A
         "objectType": "Agent",
         "name": "John Smith",
         "account": {
-            "name": "2",
-            "homePage": "https://courses.alpha.jisc.ac.uk/moodle"
+            "name": " " _// ToDo Check Where we get ID from_
+           
         }
     },
 ```
 
 ### Verb
-Common Statement Identifier: Verb.A
+
 
 #### Entity Example:
 
@@ -67,54 +71,27 @@ The Verb,[viewed](/vocabulary.md#verbs) denotes the action of the user's browser
     },
 ```
 ### Context
-Common Statement Identifier: Context.C
+
 
 #### Entity Example:
-Plugin specific extensions are optional and not part of the core recipe.
+Contexual Information
 
-
-[Context](/common_statements.md#context) identifies the platform that is being logged into, Moodle in this example.
-
-[IP Address](https://registry.tincanapi.com/#uri/extension/310) is used to identify the client's real address as a Context extension.
-
-SessionId is the VLE session Id
-
-CourseArea is the umbrella course/parent area identified by its home page URI 
-
-Plugin specific extensions are optional and not part of the core recipe.
-
-<table>
-	<tr><th>Property</th><th>Jisc Profile Information</th></tr>
-	<tr>
-		<td>context.platform</td>
-		<td>The platform used in the experience of this learning activity.</td>
-	</tr>
-	<tr>
-		<td>context.extensions</td>
-		<td>The sessionID extension is the VLE session ID. [IP Address](https://registry.tincanapi.com/#uri/extension/310) is used to identify the client's real address as a Context extension.</td>
-	</tr>
-</table>
+_ToDo: Check what contexual information the reading list suppliers give us_
 
 ``` javascript
 "context": {
-        "platform": "Moodle",
+        "platform": "", // Is this the reading list platform?
         "extensions": {
-      		"http://xapi.jisc.ac.uk/courseArea": {
-      		 	 "http://xapi.jisc.ac.uk/vle_mod_id": "LA101",
-                 "id":"http://moodle.data.alpha.jisc.ac.uk/course/view.php?id=4"
-              },
- 			"http://xapi.jisc.ac.uk/sessionId": "32456891"  ,
-	
-            "http://id.tincanapi.com/extensions/ip-address": "10.3.3.48"
-              
+            "http://id.tincanapi.com/extensions/ip-address": "10.3.3.48" _// ToDo: Check what contexual information we get_
         }
 ```
 
 ### Object
-Common Statement Identifier: Object.D
+
 
 #### Entity Example:
-Needs to identify what was viewed. A list of valid values can be found at [the definition of  object.definition.extensions on the vocabulary page](../vocabulary.md#Object.definition.extension)
+The reading list that was viewed
+_ need to check what is possible here_ 
 
 <table>
 	<tr><th>Property</th><th>Jisc Profile Information</th></tr>
@@ -135,11 +112,11 @@ Needs to identify what was viewed. A list of valid values can be found at [the d
 ``` javascript
 "object": {
 	"objectType": "Activity",
-	"id": "http://moodle.data.alpha.jisc.ac.uk/mod/quiz/view.php?id=13"   	 	//  unique id or url of the item being logged into
+	"id": " "   	 	//  _unique id or url reading list?_
 	"definition": {
-		"type": "http://xapi.jisc.ac.uk/define/vle/page",			//  definition type as above
-		"name": { "en": "Sample page" },			   //  name of item as returned by VLE
-		"description": { "en": "sample page" } //  description of item as returned by VLE
+		"type": "  ",			//  definition type as above _need minting?_
+		"name": { "en": "Sample page" },			   //  name of 
+		"description": { "en": "sample page" } //  description 
 	 }
 }
 ```
