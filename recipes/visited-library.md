@@ -1,4 +1,4 @@
-#Reading List View
+#Visited Library
 Revision: 0.1
 
 DRAFT
@@ -10,7 +10,7 @@ This recipe defines the structure and terms to record the experience of viewing 
 
 
 #### Entity Example:
-The actor entity describes the individual that is viewing  a reading list.
+The actor entity describes the individual (or group?) that has visited the library
 
 _ToDo: Where does this information come from?_
 
@@ -48,7 +48,7 @@ _ToDo: Where does this information come from?_
 
 #### Entity Example:
 
-The Verb,[viewed](/vocabulary.md#verbs) denotes the action of the user's browser or app requesting the resource that the user wishes to view.
+The Verb,[attended](/vocabulary.md#verbs) denotes the action of the user's browser or app requesting the resource that the user wishes to view.
 
 <table>
 	<tr><th>Property</th><th>Jisc Profile Information</th></tr>
@@ -64,7 +64,7 @@ The Verb,[viewed](/vocabulary.md#verbs) denotes the action of the user's browser
 
 ``` javascript
 "verb": {
-        "id": "http://id.tincanapi.com/verb/viewed",
+        "id": "http://adlnet.gov/expapi/verbs/attended",
         "display": {
             "en": "viewed"
         }
@@ -75,22 +75,16 @@ The Verb,[viewed](/vocabulary.md#verbs) denotes the action of the user's browser
 
 #### Entity Example:
 Contexual Information
+_Recipe version?_
 
-_ToDo: Check what contexual information the reading list suppliers give us_
 
-``` javascript
-"context": {
-        "platform": "", // Is this the reading list platform?
-        "extensions": {
-            "http://id.tincanapi.com/extensions/ip-address": "10.3.3.48" _// ToDo: Check what contexual information we get_
-        }
-```
 
 ### Object
 
 
 #### Entity Example:
-The reading list that was viewed
+The object is the place the person is attending, in this case the library.
+
 _ need to check what is possible here_ 
 
 <table>
@@ -105,19 +99,21 @@ _ need to check what is possible here_
 	</tr>
 		<tr>
 		<td>object.definition</td>
-		<td>A JSON object. object.definition.type describes the activity and object.definition.extensions.subtype can be used to described the subtype of this activity.</td>
+		<td>A JSON object. object.definition.type states activity type is place.</td>
 	</tr>
 </table>
 
 ``` javascript
 "object": {
 	"objectType": "Activity",
-	"id": " "   	 	//  _unique id or url reading list?_
-	"definition": {
-		"type": "  ",			//  definition type as above _need minting?_
-		"name": { "en": "Sample page" },			   //  name of 
-		"description": { "en": "sample page" } //  description 
-	 }
+	 "id": "  ", /
+	 "definition": {
+		  "name": {"en-GB" : "Library Name" },
+		 "description": { "en": "Description.",
+        },
+       
+       "type": "http://activitystrea.ms/schema/1.0/place",
+   }
 }
 ```
 
