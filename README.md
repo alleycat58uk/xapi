@@ -52,7 +52,7 @@ These are the currently platform independent documented recipes:
 
 ### Attendance 
 
- * [Visited Library](recipes/authorise.md)
+ * [Visited Library](recipes/visited-library.md)
 
 
 ## Predictive Model Output
