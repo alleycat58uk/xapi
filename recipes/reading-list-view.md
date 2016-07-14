@@ -26,7 +26,7 @@ _ToDo: Where does this information come from?_
 	</tr>
 		<tr>
 		<td>actor.account</td>
-		<td>JSON Object with unique id and home page</td>
+		<td>JSON Object with unique id</td>
 	</tr>
 </table>
 
@@ -37,8 +37,8 @@ _ToDo: Where does this information come from?_
         "objectType": "Agent",
         "name": "John Smith",
         "account": {
-            "name": "2",
-            "homePage": "https://courses.alpha.jisc.ac.uk/moodle"
+            "name": " " _// ToDo Check Where we get ID from_
+           
         }
     },
 ```
@@ -75,13 +75,14 @@ The Verb,[viewed](/vocabulary.md#verbs) denotes the action of the user's browser
 
 #### Entity Example:
 Contexual Information
+
 _ToDo: Check what contexual information the reading list suppliers give us_
 
 ``` javascript
 "context": {
-        "platform": "",
+        "platform": "", // Is this the reading list platform?
         "extensions": {
-            "http://id.tincanapi.com/extensions/ip-address": "10.3.3.48"
+            "http://id.tincanapi.com/extensions/ip-address": "10.3.3.48" _// ToDo: Check what contexual information we get_
         }
 ```
 
@@ -90,7 +91,7 @@ _ToDo: Check what contexual information the reading list suppliers give us_
 
 #### Entity Example:
 The reading list that was viewed
-_we need to check what is avalible__
+_ need to check what is possible here_ 
 
 <table>
 	<tr><th>Property</th><th>Jisc Profile Information</th></tr>
@@ -111,9 +112,9 @@ _we need to check what is avalible__
 ``` javascript
 "object": {
 	"objectType": "Activity",
-	"id": " "   	 	//  unique id or url reading list
+	"id": " "   	 	//  _unique id or url reading list?_
 	"definition": {
-		"type": "  ",			//  definition type as above _need minting?
+		"type": "  ",			//  definition type as above _need minting?_
 		"name": { "en": "Sample page" },			   //  name of 
 		"description": { "en": "sample page" } //  description 
 	 }
