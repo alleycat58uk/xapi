@@ -10,7 +10,7 @@ This recipe defines the structure and terms to record the experience of viewing 
 
 
 #### Entity Example:
-The actor entity describes the individual that is viewing  a reading list.
+The actor entity describes the individual that is viewing  a reading list item.
 
 _ToDo: Where does this information come from?_
 
@@ -90,7 +90,7 @@ _ToDo: Check what contexual information the reading list suppliers give us_
 
 
 #### Entity Example:
-The reading list that was viewed
+The reading list item that was viewed
 _ need to check what is possible here_ 
 
 <table>
