@@ -66,7 +66,7 @@ The Verb,[attended](/vocabulary.md#verbs) denotes the action of the user's brows
 "verb": {
         "id": "http://adlnet.gov/expapi/verbs/attended",
         "display": {
-            "en": "viewed"
+            "en": "attended"
         }
     },
 ```
