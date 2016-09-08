@@ -121,7 +121,4 @@ _ need to check what is possible here_
 }
 ```
 
-### Complete VLE Specific Examples
-[Moodle Example](/vle/moodle/moduleview.js)
-
-[Blackboard Example](/vle/blackboard/course_content_access.json)
+### Example
