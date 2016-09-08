@@ -1,4 +1,4 @@
-#Reading List View
+#Reading List Item View
 Revision: 0.1
 
 DRAFT
